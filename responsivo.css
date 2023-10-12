@@ -18,4 +18,8 @@
         font-size: 14px;
         margin: 10px;
     }
+
+    .form-container button{
+        width: 25vw
+    }
 }
