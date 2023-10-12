@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<!------------------- Links ------------------->
+	<script src="javascript.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="responsivo.css">
+	<link rel="stylesheet" href="font.css">
+	<!--------------------------------------------->
+
+
+	<title>Portfólio Pessoal</title>
+</head>
+
+
+<!-- Conteúdo apresentado na tela. -->
+<body>
+
+
+	<!----------------Cabeçalho-------------------->
+	<header>
+		<div class="logo">
+			<!-- Imagem da logo -->
+    		<img src="Image/logo.png" alt="Portfólio Pessoal">
+		</div>
+		
+
+		<!-- Agrupando links de navegação no site. -->
+		<nav>
+			<!-- opc = opacidade -->
+			<p class="opc">|</p>
+			<!-- Usando o onclick para mudar o conteudo da pagina principal, para isso eu usei o javascript-->
+			<a onclick="exibirSecao('sobre')">SOBRE MIM</a>
+			<p class="opc">|</p>
+			<a onclick="exibirSecao('formacao')">FORMAÇÃO EDUCACIONAL</a>
+			<p class="opc">|</p>
+			<a onclick="exibirSecao('portfolio')">MEU PORTFÓLIO</a>
+			<p class="opc">|</p>
+			<a onclick="exibirSecao('contato')">CONTATO</a>
+			<p class="opc">|</p>
+		</nav>
+	</header>
+	<!-------------------- Fim header ----------------------->
+
+
+
+
+	<!------------------- Conteudos da Página- ---------------->
+	<main>
+		<!----------------- Conteudo Inicial ---------------->
+		<!-- CSS interno no section para dar uma distancia do header-->
+		<section style="margin-top: 50px;">
+
+
+			<!-- Uma imagem que ficará do lado do texto-->
+			<img class="img-guy" src="Image/guy.svg" alt="Jovem digitando no computador">
+
+
+			<!-- texto -->
+			<p class="cor-titulo titulo" >Bem-Vindo(a)</p>
+			<p class="txt"><b>Clique nas opções da barra de navegação acima</b>, para conhecer um pouco sobre mim e visualizar o meu primeiro site.</p>
+		</section>
+		<!-- Esse conteudo irá sumir quando a pessoa navegar, somente recarregando a pagina para conseguir ver de novo-->
+		<!---------------------------------------------------->
+
+
+
+
+		<!--------------- Conteudo Sobre Mim ----------------->
+		<!-- CSS interno no section para dar uma distancia do header-->
+		<!-- display none para esconder o conteudo -->
+		<section id="sobre" style="margin-top: 50px; display: none;">
+
+
+			<!-- Uma imagem que ficará do lado do texto-->
+			<img class="img-notebook" src="Image/modelo1.svg" alt="Mãos no Teclado">
+
+
+			<!-- texto -->
+			<p class="cor-titulo titulo-1">Quem sou eu?</p>
+			<!---->
+			<p class="txt-1">Olá, meu nome é <b>Nathan</b>. Sou um estudante de <b>Análise e Desenvolvimento de Sistemas</b></p>
+			<br> 
+			<p class="txt-1">Estou em constante busca pelo conhecimento e pela inovação. Minha jornada na área de tecnologia me levou a explorar novas possibilidades.</p>
+			<br> 
+			<p class="txt-1">Navegue pelo meu portfólio e descubra um pouco sobre mim.</p>
+			
+
+		</section>
+		<!-------------------------------------------------------->
+
+
+
+
+		<!-------------- Conteudo Formação Educacional ----------->
+		<!-- CSS interno no section para dar uma distancia do header-->
+		<!-- display none para esconder o conteudo -->
+		<section id="formacao" style="margin-top: 50px; display: none;">
+			
+
+			<!-- Uma imagem que ficará do lado do texto-->
+			<img class="img-chapeu" src="Image/graduação.svg" alt="Chapeus voando">
+
+
+			<!-- texto -->
+			<p class="cor-titulo titulo-2">Minha formação</p>
+			<!---->
+			<p class="txt-2">Minha jornada educacional começou com um <b>curso técnico em informática</b> na minha escola.</p>
+			<br>
+			<p class="txt-2">Tive a oportunidade de realizar estágios que me proporcionaram experiência prática e um entendimento mais profundo do campo.</p>
+			<br> 
+			<p class="txt-2">Além disso, busquei aprimorar meus conhecimentos em hardware, complementando com cursos adicionais.</p>
+
+
+		</section>
+		<!---------------------------------------------------------->
+
+
+
+
+		<!--------------------- Conteudo Portfólio ----------------->
+		<!-- CSS interno no section para dar uma distancia do header-->
+		<!-- display none para esconder o conteudo -->
+		<section id="portfolio" style="margin-top: 50px; display: none;">
+			
+			<!-- Texto -->
+			<p class="cor-titulo titulo-3">Portfólio</p>
+			<!---->
+			<p class="txt-3">Embora ainda esteja no início da minha jornada como desenvolvedor, estou empolgado com a perspectiva de criar projetos empolgantes no futuro.</p>
+			<br>
+			<p class="txt-3">Atualmente, estou focado em adquirir as habilidades e conhecimentos necessários para me tornar um desenvolvedor talentoso. Embora meu portfólio possa estar um pouco escasso no momento, estou comprometido em aprender e crescer constantemente.</p>
+			<br>
+			<p class="txt-3">Fique atento, pois em breve estarei compartilhando projetos inovadores que demonstrarão minha paixão e habilidades no mundo da tecnologia e desenvolvimento de sistemas.</p>
+
+			<!-- Uma imagem que ficará do abaixo do texto-->
+			<img class="img-question" src="Image/question.svg" alt="Em Breve">
+			<p style="color: white;">Em breve...</p>
+
+
+		</section>
+		<!---------------------------------------------------------->
+
+
+
+
+		<!-------------------- Conteudo Contato -------------------->
+		<!-- CSS interno no section para dar uma distancia do header-->
+		<!-- display none para esconder o conteudo -->
+		<section id="contato" style="margin-top: 50px; display: none;">
+
+
+			<!-- Texto-->
+			<p class="cor-titulo titulo-4">Contato</p>
+			<!---->
+			<p class="txt-4">Fique à vontade para entrar em contato comigo a qualquer momento! Basta preencher as informações abaixo e, em um piscar de olhos, estaremos em sintonia. Estou sempre pronto para uma boa conversa e para discutir projetos emocionantes!</p>
+			<br>
+
+
+			<!-- Uma div com um form dentro e mais uma div, para criar uma tela de formulario agradavel-->
+			<div class="container">
+				<form action="" method="">
+					<div class="form-container">
+
+
+						<!-- Local do nome -->
+						<label for="nome">Nome:</label>
+						<input type="text" name="nome" placeholder="Ex.: Nathan Albuquerque" required>
+		
+
+						<!-- Local do E-mail-->
+						<label for="email">E-mail:</label>
+						<input type="email" name="email" placeholder="Ex.: email@exemplo.com" required>
+		
+
+						<!-- Local da Mensagem-->
+						<label for="msg">Mensagem:</label>
+						<textarea name="msg" placeholder="Digite sua mensagem..." rows="10" required></textarea>
+		
+
+						<!-- Botão de Enviar-->
+						<button type="submit">Enviar</button>
+					</div>
+				</form>
+			</div>
+		</section>
+		<!--------------------------------------------------------->
+	</main>
+	<!------------------------ Fim do main ------------------------>
+
+
+
+	<!------------------- Rodapé da Pagina ------------------------>
+	<footer><strong>© 2023 Nathan Albuquerque</strong></footer>
+	<!------------------------------------------------------------->
+</body>
+</html>

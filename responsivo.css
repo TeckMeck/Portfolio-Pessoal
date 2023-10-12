@@ -1,0 +1,21 @@
+@media screen and (max-width: 900px){
+    .logo{
+        display: none;
+    }
+
+
+    section p{
+        font-size: 14px;
+    }
+
+    .cor-titulo{
+        text-align: center;
+        margin: 10px;
+        font-size: 28px;
+    }
+
+    nav a{
+        font-size: 14px;
+        margin: 10px;
+    }
+}
